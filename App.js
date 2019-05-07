@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
-import Router from './src/pages/MainPage';
+import Router from './src/pages/index';
 import { store } from './src/store';
 
 export default class App extends Component {
